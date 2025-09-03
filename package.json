@@ -1,0 +1,18 @@
+{
+  "name": "tik-tak-toe",
+  "version": "1.0.0",
+  "description": "Tik-tak-toe",
+  "devDependencies": {
+    "sass-embedded": "^1.92.0",
+    "vite": "^7.1.4"
+  },
+  "dependencies": {
+    "@pixi/devtools": "^2.0.1",
+    "pixi.js": "^8.13.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  }
+}

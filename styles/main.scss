@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #5b5b5b;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    color: rgb(184, 209, 201);
+
+
+    canvas {
+        border: 5px solid #fff;
+    }
+
+    .game-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px;
+        
+        h1{
+            color: #fff;
+        }
+
+        #newGameBtn {
+            width: 150px;
+            height: 40px;
+            border: none;
+            border-radius: 10px;
+            text-decoration: none;
+            color: white;
+            background: #578296ed;
+            box-shadow: 0 5px 0 #74b0f0;
+            cursor: pointer;
+
+            &:hover {
+                background: #9fa5b4;
+                box-shadow: none;
+                position: relative;
+                top: 5px;
+            }
+        }
+    }
+}

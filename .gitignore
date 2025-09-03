@@ -1,0 +1,38 @@
+# === Логи ===
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# === Зависимости ===
+node_modules/
+
+# === Сборка ===
+dist/
+dist-ssr/
+*.local
+
+# === Vite cache ===
+.vite/
+
+# === Env файлы (секреты, ключи и т.п.) ===
+.env
+.env.local
+.env.*.local
+
+# === IDE и редакторы ===
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# === Тесты и отчёты ===
+coverage/
